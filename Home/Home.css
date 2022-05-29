@@ -1,0 +1,420 @@
+.home_container {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(100.72deg, #122E99 -12.83%, #2370C8 104.22%);
+    
+    display: flex;
+
+}
+
+.left_head {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid white; */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.head_child {
+    width: 70%;
+    height: 30%;
+    /* border: 2px solid yellowgreen; */
+    color: #FFFFFF;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.itr {
+    width: 70%;
+    height: 7%;
+    /* border: 2px solid yellow; */
+    text-align: left;
+    color: #FAFAFA;
+    font-size: 1.2rem;
+    margin-top: 0rem;
+}
+.home_btn{
+    text-align: left;
+    /* border: 2px solid wheat; */
+    width: 70%;
+    margin-top: .7rem;
+}
+.home_btn button{
+    width: 25%;
+    height: 2.5rem;
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: .3rem;
+    color: #122E99;
+    font-size: 1rem;
+    font-weight: 560;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blueviolet; */
+    float: left;
+
+}
+
+.img_div {
+    width: 100%;
+    height: 100%;
+    /* border: 3px solid wheat; */
+}
+
+.img_div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+{/* Services Section  */}
+
+ .service_container{
+     width: 100%;
+     height: 100%;
+     /* border: 2px solid yellow; */
+     padding: 1rem;
+   
+ }
+ .our_services h4{
+     color: #2370C8;
+     font-size: 1.1rem;
+     font-weight: 500;
+     letter-spacing: 0.15em;
+     /* border: 2px solid blue; */
+     height: 20%;
+ }
+ .providing h2{
+    font-weight: 500;
+    font-size: 2.5rem;
+    color:#262A4E;
+    /* border: 2px solid black; */
+    
+ }
+ .startup{
+     width: 95%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+     /* border: 2px solid yellow; */
+ }
+ .s_child{
+     width: 80%;
+     height: 100%;
+     /* border: 2px solid black; */
+     display: flex;
+     justify-content: space-around;
+     
+ }
+ .card1{
+     width: 28%;
+     height: 100%;
+     /* border: 2px solid brown; */
+     background-color: #E5F3FE;
+     padding: 1rem;
+ }
+ .card1 h5{
+     color: #262A4E;
+     font-size: 1.1rem;
+     font-weight: 500;
+ }
+  .card1 p{
+      color: #646464;
+      font-size: 1rem;
+      font-weight: 400;
+  }
+ .s_image{
+     /* border: 2px solid red; */
+     height: 40%;
+     width: 100%;
+     margin-top:4.9rem;
+ }
+ .s_image img{
+     width: 65%;
+     height: 85%;
+ }
+
+ .s_image1{
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 100%;
+    margin-top: ;
+}
+.s_image1 img{
+    width: 65%;
+    height: 85%;
+}
+.s_image2{
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 100%;
+    margin-top: 2rem;
+}
+.s_image2 img{
+    width: 65%;
+    height: 85%;
+}
+
+{/* Services Section  */}
+
+
+/* About */
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F9FF;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.about_child{
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.about_left{
+    width: 35%;
+    height: 100%;
+    /* border: 2px solid yellowgreen; */
+    object-fit: cover;
+}
+.about_left img{
+    width: 100%;
+    height: 100%;
+}
+.about_right{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid yellowgreen; */
+}
+.about_us h4{
+    text-align: left;
+    color: #2370C8;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+}
+.about_firm h2{
+    text-align: left;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color:#262A4E;
+}
+.about_para p{
+    text-align: left;
+    color: #646464;
+    font-size: 1rem;
+    font-weight: 400;  
+}
+.about_btn{
+    /* border: 2px solid blanchedalmond; */
+    width: 8rem;
+    height: 2.3rem;
+    border-radius: 2rem;
+    background-color: #2370C8;
+    padding: .1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_btn a{
+    color: #FAFAFA;
+    text-decoration: none;
+}
+/* About */
+
+ {/* E-filing */}
+ .carousel
+ {
+     /* border:2px solid yellow */
+
+ }
+ .carousel1{
+     /* border: 2px solid blue */
+ }
+
+  
+.e_filing{
+    width: 100%;
+    height:100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+} 
+.e_head h2{
+    font-weight: 500;
+    font-size: 2.5rem;
+    color:#262A4E;
+}
+.e_child{
+    width: 85%;
+    height: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-end; */
+}
+.e_card{
+    width: 33%;
+    height: auto;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+}
+.e_card1{
+    width: 31%;
+    height: 100%;
+    /* border: 3px solid black; */
+}
+.e_card1 img{
+    width: 100%;
+    height: 100%;
+}
+.e_card2{
+    width: 31%;
+    height: 100%;
+    /* border: 3px solid black; */
+}
+.e_card2 img{
+    width: 100%;
+    height: 100%;
+}
+.e_head2 h2{
+    color: #000000;
+    font-size: 2.1rem;
+    font-weight: 600;
+    text-align: left;
+    /* border: 2px solid blue; */
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+}
+.epara p{
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #000000;
+    /* border: 2px solid blue; */
+    margin-top: 0rem;
+} 
+
+  {/* E-filing */}
+
+  .aatm{
+      width: 100%;
+      height: 40vh;
+      /* border: 2px solid yellowgreen; */
+  }
+  .aatm img{
+   width: 100%;
+   height: 100%;
+  }
+
+   {/* Contact Us */}
+   .contact_us{
+    width: 100%;
+    height: 100%;
+    background: #F2F9FF;
+    /* border: 2px solid  blue; */
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+
+   }
+   .contact_head h2{
+    font-weight: 400;
+    font-size: 2.4rem;
+    color:#000000;
+   }
+   .form_container{
+       width: 70%;
+       height: 100%;
+       /* border: 2px solid brown; */
+       display: flex;
+       justify-content: space-around;
+       padding: 1rem;
+   }
+   .form{
+       width: 65%;
+       height: 100%;
+       /* border: 2px solid yellow; */
+   }
+   .add{
+    width: 40%;
+    height: 100%;
+    margin-left: 1.5rem;
+    /* border: 2px solid blue; */
+   }
+
+   .name{
+            width: 40%;
+            height: 1.8rem;
+            margin-right: 1.4rem;
+            padding: .5rem;
+            border-radius: .4rem;
+            border: .15rem solid #3C219A;
+   }
+   .last{
+    width: 40%;
+    height: 1.8rem;
+    padding: .5rem;
+    border-radius: .4rem;
+    border: .15rem solid #3C219A;
+   }
+   .mail{
+    width: 87%; 
+    height: 1.8rem;
+    margin-top: 1rem; 
+    padding: .5rem;
+    border-radius: .4rem;
+    border: .15rem solid #3C219A;
+   }
+   .textarea{
+    width: 87%;
+    height: 8rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: .4rem;
+    border: .15rem solid #3C219A;
+   }
+   .add_para p{
+       margin-top: 0;
+       font-size: 1.2rem;
+       font-weight: 400;
+       color: #000000;
+       text-align: left;
+   }
+   .map{
+       width: 100%;
+       height: 100%;
+   }
+   .map iframe{
+    width: 100%;
+    height: 100%;
+   }
+
+
+    {/* Contact Us */}

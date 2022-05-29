@@ -1,0 +1,136 @@
+.footer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(100.72deg, #122E99 -12.83%, #2370C8 104.22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+.footer_child{
+    width: 80%;
+    height: 80%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.f_card1{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid indianred; */
+}
+.f_card2{
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid indianred; */
+}
+.f_card3{
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid indianred; */
+}
+.f_card4{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid indianred; */
+}
+.f_h h3{
+    color:#FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left
+    ;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.f_early{
+    /* border: 2px solid bisque; */
+    color: #FFFFFF;
+    text-align: justify;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    
+}
+.f_early li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.f_early li{
+    /* border: 2px solid blanchedalmond; */
+    padding-top: .8rem;
+}
+
+@media screen and (max-width:2657px){
+
+    .footer{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(100.72deg, #122E99 -12.83%, #2370C8 104.22%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    
+    }
+    .footer_child{
+        width: 80%;
+        height: 80%;
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: center;
+    }
+    .f_card1{
+        width: 25%;
+        height: 100%;
+        /* border: 2px solid indianred; */
+    }
+    .f_card2{
+        width: 20%;
+        height: 100%;
+        /* border: 2px solid indianred; */
+    }
+    .f_card3{
+        width: 20%;
+        height: 100%;
+        /* border: 2px solid indianred; */
+    }
+    .f_card4{
+        width: 25%;
+        height: 100%;
+        /* border: 2px solid indianred; */
+    }
+    .f_h h3{
+        color:#FFFFFF;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: left
+        ;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .f_early{
+        /* border: 2px solid bisque; */
+        color: #FFFFFF;
+        text-align: justify;
+        list-style: none;
+        padding-left: 0;
+        margin-top: 0;
+        
+    }
+    .f_early li a{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .f_early li{
+        /* border: 2px solid blanchedalmond; */
+        padding-top: .8rem;
+    }
+
+
+}

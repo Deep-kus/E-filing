@@ -1,0 +1,1056 @@
+.landing {
+    margin: 0 0 5rem 0;
+    gap: 3rem;
+}
+
+.landing .hero {
+    background: rgb(28, 27, 44);
+    background: linear-gradient(90deg, rgba(28, 27, 44, 0) 0%, rgba(18, 46, 153, 1) 0%, rgba(35, 112, 200, 1) 100%);
+    padding: 2rem;
+    position: relative;
+}
+
+.landing .hero img {
+    width: 100%;
+}
+
+.landing .hero h1 {
+    width: 80%;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+
+.landing .hero h1 span {
+    font-size: 3rem;
+}
+
+.landing .hero .search {
+    width: 80%;
+    height: 2rem;
+    background-color: #fff;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    border: 4px solid rgba(96, 121, 196, 0.325);
+
+}
+
+.landing .hero .search button {
+    background-color: #2370C8;
+    border: none;
+    color: #fff;
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+
+}
+
+.landing .hero .search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+
+.landing .hero .quickLinks {
+    width: 80%;
+    background-color: #fff;
+    position: absolute;
+    bottom: -7rem;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0.3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing h2 {
+    font-size: 2rem;
+    color: #2370C8;
+    font-weight: 500;
+}
+
+.landing .hero .quickLinks span {
+    width: 30%;
+    background-color: #2370C8;
+    height: 3px;
+    margin: 0 0 2rem 0;
+}
+
+.landing .hero .quickLinks .links {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.landing .hero .quickLinks .link {
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.093);
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.landing .services {
+    margin-top: 10rem;
+
+}
+
+.landing .services h2 {}
+
+.landing .service-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5%;
+}
+
+.landing .services .serviceCard {
+    width: 20%;
+    background-color: #D6E9FF;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.landing .services .serviceCard img {
+    width: 60%;
+}
+
+.landing .services .serviceCard .title {
+    width: 100%;
+    background-color: #2370C8;
+    text-align: center;
+    color: #fff;
+}
+
+.landing .aboutus .container {
+    background-color: #B7D8FF;
+    padding: 3rem 1rem;
+}
+
+.landing .aboutus .container img {
+    width: 70%;
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+.col-50{
+    text-align: left;
+}
+.col-50 h3{
+    /* border: 2px solid blue; */
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.landing .aboutus .container p {
+    width: 80%;
+    /* line-height: 20rem; */
+    /* border: 2px solid yellow; */
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.landing .aboutus .container button {
+    width: fit-content;
+    padding: 1rem 1.5rem;
+    background-color: #2370C8;
+    border-radius: 1.5rem;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.landing .support .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    /* border: 2px solid black; */
+}
+
+
+.landing .support .container .card {
+    position: relative;
+    width: 20%;
+    background-color: #B7D8FF;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 7rem;
+}
+
+.landing .support .container .card img {
+    position: absolute;
+    bottom: 1rem;
+    width: 50%;
+
+}
+
+.landing .review .container {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    background: url('../../Assets/laptop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+.landing .review .container .carousal {
+    padding: 6rem 0;
+    width: 70%;
+    background: linear-gradient(269.87deg, #94C0F2 0.08%, rgba(242, 249, 255, 0) 99.86%);
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+}
+.landing .review .container .carousal>* {
+    margin-right: 4rem;
+}
+.landing .review .container .carousal .card {
+    width: 45%;
+    background-color: #2168C2;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #fff;
+    
+
+}
+
+.landing .review .container .carousal .card .profile p {
+    color: #fff;
+}
+
+.landing .review .container .carousal .card .profile img {
+    width: 3rem;
+}
+
+.landing .review .container .carousal button {
+    width: fit-content;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing .review .container .carousal button img {
+    width: 1.5rem;
+}
+
+.landing .contact {
+    position: relative;
+}
+
+.landing .contact .back {
+    width: 100%;
+    position: absolute;
+    height: 50%;
+    background-color: #94C0F2;
+    z-index: 0;
+}
+
+.landing .contact .form {
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    z-index: 1;
+    margin-top: 5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.landing .contact .form h1{
+    color: #2370C8;
+    width: 60%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+.landing .contact .form p{
+    width: 70%;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.landing .contact .form .icon img{
+    background-color: #2370C8;
+    border-radius: 50% ;
+    width: 1.6rem;
+    height: 1.6rem;
+    padding: 0.3rem;
+    aspect-ratio: 1/1;
+} 
+.landing .contact .form label{
+    color: #2370C8;
+    font-size: 1rem;
+}
+.landing .contact .form input{
+    width: 90%;
+    font-size: 1rem;
+    height: 2.1rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: 1px solid #A6A2A2;
+}
+.landing .contact .form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.landing .contact .form textarea{
+    width: 90%;
+    font-size: 1rem;
+}
+.landing .contact .form button{
+    width: fit-content;
+    padding: 0.6rem 1rem;
+    background-color: #2370C8;
+    border-radius: 0.3rem;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    outline: none;
+    border: 1px solid #A6A2A2;
+}
+
+@media screen and (max-width:2657px) {
+    .landing {
+        margin: 0 0 5rem 0;
+        gap: 3rem;
+    }
+    
+    .landing .hero {
+        background: rgb(28, 27, 44);
+        background: linear-gradient(90deg, rgba(28, 27, 44, 0) 0%, rgba(18, 46, 153, 1) 0%, rgba(35, 112, 200, 1) 100%);
+        padding: 2rem;
+        position: relative;
+    }
+    
+    .landing .hero img {
+        width: 100%;
+    }
+    
+    .landing .hero h1 {
+        width: 80%;
+        font-size: 6rem;
+        color: #fff;
+        font-weight: 600;
+        line-height: 7rem;
+    }
+    
+    .landing .hero h1 span {
+        font-size: 5rem;
+    }
+    
+    .landing .hero .search {
+        width: 80%;
+        height: 3rem;
+        background-color: #fff;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        border: 4px solid rgba(96, 121, 196, 0.325);
+    
+    }
+    
+    .landing .hero .search button {
+        background-color: #2370C8;
+        border: none;
+        color: #fff;
+        border-radius: 0.3rem;
+        padding: 0.3rem 1rem;
+        font-size: 1.5rem;
+    
+    }
+    
+    .landing .hero .search input {
+        width: 100%;
+        border: none;
+        outline: none;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+    
+    .landing .hero .quickLinks {
+        width: 80%;
+        background-color: #fff;
+        position: absolute;
+        bottom: -13rem;
+        box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        padding: 0rem 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .landing h2 {
+        font-size: 3.5rem;
+        color: #2370C8;
+        font-weight: 500;
+        /* border: 2px solid black; */
+        margin-top: 1rem;
+    }
+    
+    .landing .hero .quickLinks span {
+        width: 30%;
+        background-color: #2370C8;
+        height: 3px;
+        margin-top:  -2rem ;
+    }
+    
+    .landing .hero .quickLinks .links {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .landing .hero .quickLinks .link {
+        box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.093);
+        border-radius: 10px;
+        width: 20%;
+        text-align: center;
+    }
+    .g-1{
+        gap: 2rem;
+      }
+    .link a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    
+    .landing .services {
+        margin-top: 15rem;
+    
+    }
+    
+    .landing .services h2 {
+        font-size: 5rem;
+    }
+    
+    .landing .service-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-items: stretch;
+        gap: 5%;
+        /* border: 2px solid black; */
+    }
+    
+    .landing .services .serviceCard {
+        width: 24%;
+        background-color: #D6E9FF;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+    
+    }
+    
+    .landing .services .serviceCard img {
+        width: 80%;
+    }
+    
+    .landing .services .serviceCard .title {
+        width: 100%;
+        background-color: #2370C8;
+        text-align: center;
+        color: #fff;
+        font-size: 2.5rem;
+    }
+    
+    .landing .aboutus .container {
+        background-color: #B7D8FF;
+        padding: 3rem 1rem;
+        
+    }
+    
+    .landing .aboutus .container img {
+        width: 70%;
+        align-self: flex-start;
+        margin-left: 2rem;
+    }
+    .aboutus h2{
+        font-size: 5rem;
+    }
+    .col-50 h3{
+        /* border: 2px solid blue; */
+        font-size: 4.5rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .landing .aboutus .container p {
+        width: 80%;
+        font-size: 2rem;
+
+    } 
+    
+    .landing .aboutus .container button {
+        width: fit-content;
+        padding: 1.5rem 2rem;
+        background-color: #2370C8;
+        border-radius: 2.5rem;
+        border: none;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    
+    .landing .support .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+    }
+    .support h2{
+        font-size: 5rem;
+    }
+    
+    .landing .support .container .card {
+        position: relative;
+        width: 22%;
+        background-color: #B7D8FF;
+        padding: 1rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 11rem;
+    }
+    .card h3,p {
+        font-size: 2rem;
+
+    }
+    
+    .landing .support .container .card img {
+        position: absolute;
+        margin-top: 2rem;
+        bottom: 1rem;
+        width: 50%;
+    
+    }
+    
+    .landing .review .container {
+    
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-content: center;
+        background: url('../../Assets/laptop.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+       
+    
+    }
+    .review h2{
+                 font-size: 5rem;
+    }
+    
+    
+    .landing .review .container .carousal {
+        padding: 6rem 0;
+        width: 70%;
+        background: linear-gradient(269.87deg, #94C0F2 0.08%, rgba(242, 249, 255, 0) 99.86%);
+        display: flex;
+        flex-direction: column;
+       align-items: flex-end;
+    }
+    .landing .review .container .carousal>* {
+        margin-right: 4rem;
+    }
+    .landing .review .container .carousal .card {
+        width: 60%;
+        background-color: #2168C2;
+        border-radius: 1rem;
+        padding: 1rem;
+        color: #fff;
+        
+    
+    }
+    
+    .landing .review .container .carousal .card .profile p {
+        color: #fff;
+    }
+    
+    .landing .review .container .carousal .card .profile img {
+        width: 7rem;
+    }
+    
+    .landing .review .container .carousal button {
+        width: fit-content;
+        border-radius: 50%;
+        border: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .landing .review .container .carousal button img {
+        width: 4rem;
+    }
+    
+    .landing .contact {
+        position: relative;
+       
+    }
+    
+    .landing .contact .back {
+        width: 100%;
+        position: absolute;
+        height: 50%;
+        background-color: #94C0F2;
+        z-index: 0;
+    }
+    
+    .landing .contact .form {
+        width: 60%;
+        background-color: #fff;
+        box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        z-index: 1;
+        margin-top: 5rem;
+        padding: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* border: 2px solid black; */
+    }
+    .landing .contact .form h1{
+        color: #2370C8;
+        width: 60%;
+        font-size: 4rem;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+    .landing .contact .form p{
+        width: 70%;
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    .landing .contact .form .icon img{
+        background-color: #2370C8;
+        border-radius: 50% ;
+        width: 2rem;
+        height: 2rem;
+        padding: 0.3rem;
+        aspect-ratio: 1/1;
+    } 
+    .landing .contact .form label{
+        color: #2370C8;
+        font-size: 2rem;
+    }
+    .landing .contact .form input{
+        width: 90%;
+        font-size: 1rem;
+        height: 3rem;
+        border-radius: 0.3rem;
+        outline: none;
+        border: 1px solid #A6A2A2;
+        font-size: 1.5rem;
+    }
+    .landing .contact .form form{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .landing .contact .form textarea{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    .landing .contact .form button{
+        width: fit-content;
+        padding: 1rem 2rem;
+        background-color: #2370C8;
+        border-radius: 1rem;
+        border: none;
+        color: #fff;
+        font-size: 1.5rem;
+        outline: none;
+        border: 1px solid #A6A2A2;
+    }
+    
+}
+
+@media screen and (max-width:1417px)
+{
+    .landing {
+        margin: 0 0 5rem 0;
+        gap: 3rem;
+    }
+    
+    .landing .hero {
+        background: rgb(28, 27, 44);
+        background: linear-gradient(90deg, rgba(28, 27, 44, 0) 0%, rgba(18, 46, 153, 1) 0%, rgba(35, 112, 200, 1) 100%);
+        padding: 2rem;
+        position: relative;
+    }
+    
+    .landing .hero img {
+        width: 100%;
+    }
+    
+    .landing .hero h1 {
+        width: 80%;
+        font-size: 3.5rem;
+        color: #fff;
+        font-weight: 600;
+        line-height: 3.5rem;
+    }
+    
+    .landing .hero h1 span {
+        font-size: 3rem;
+    }
+    
+    .landing .hero .search {
+        width: 80%;
+        height: 2rem;
+        background-color: #fff;
+        padding: 0.4rem;
+        border-radius: 0.3rem;
+        border: 4px solid rgba(96, 121, 196, 0.325);
+    
+    }
+    
+    .landing .hero .search button {
+        background-color: #2370C8;
+        border: none;
+        color: #fff;
+        border-radius: 0.3rem;
+        padding: 0.3rem 1rem;
+    
+    }
+    
+    .landing .hero .search input {
+        width: 100%;
+        border: none;
+        outline: none;
+        padding-left: 1rem;
+    }
+    
+    .landing .hero .quickLinks {
+        width: 80%;
+        background-color: #fff;
+        position: absolute;
+        bottom: -7rem;
+        box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        padding: 0.3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .landing h2 {
+        font-size: 2rem;
+        color: #2370C8;
+        font-weight: 500;
+    }
+    
+    .landing .hero .quickLinks span {
+        width: 30%;
+        background-color: #2370C8;
+        height: 3px;
+        margin: 0 0 2rem 0;
+    }
+    
+    .landing .hero .quickLinks .links {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .landing .hero .quickLinks .link {
+        box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.093);
+        border-radius: 10px;
+        width: 20%;
+        text-align: center;
+    }
+    .link a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.1rem;
+    }
+    
+    .landing .services {
+        margin-top: 10rem;
+    
+    }
+    
+    .landing .services h2 {}
+    
+    .landing .service-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-items: stretch;
+        gap: 5%;
+    }
+    
+    .landing .services .serviceCard {
+        width: 20%;
+        background-color: #D6E9FF;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+    
+    }
+    
+    .landing .services .serviceCard img {
+        width: 60%;
+    }
+    
+    .landing .services .serviceCard .title {
+        width: 100%;
+        background-color: #2370C8;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .landing .aboutus .container {
+        background-color: #B7D8FF;
+        padding: 3rem 1rem;
+    }
+    
+    .landing .aboutus .container img {
+        width: 70%;
+        align-self: flex-start;
+        margin-left: 2rem;
+    }
+    .col-50{
+        text-align: left;
+    }
+    .col-50 h3{
+        /* border: 2px solid blue; */
+        font-size: 2.3rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .landing .aboutus .container p {
+        width: 80%;
+        /* line-height: 20rem; */
+        /* border: 2px solid yellow; */
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    
+    .landing .aboutus .container button {
+        width: fit-content;
+        padding: 1rem 1.5rem;
+        background-color: #2370C8;
+        border-radius: 1.5rem;
+        border: none;
+        color: #fff;
+        font-size: 1rem;
+    }
+    
+    .landing .support .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+        /* border: 2px solid black; */
+    }
+    
+    
+    .landing .support .container .card {
+        position: relative;
+        width: 20%;
+        background-color: #B7D8FF;
+        padding: 1rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 7rem;
+    }
+    
+    .landing .support .container .card img {
+        position: absolute;
+        bottom: 1rem;
+        width: 50%;
+    
+    }
+    
+    .landing .review .container {
+    
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-content: center;
+        background: url('../../Assets/laptop.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+       
+    
+    }
+    
+    
+    .landing .review .container .carousal {
+        padding: 6rem 0;
+        width: 70%;
+        background: linear-gradient(269.87deg, #94C0F2 0.08%, rgba(242, 249, 255, 0) 99.86%);
+        display: flex;
+        flex-direction: column;
+       align-items: flex-end;
+    }
+    .landing .review .container .carousal>* {
+        margin-right: 4rem;
+    }
+    .landing .review .container .carousal .card {
+        width: 45%;
+        background-color: #2168C2;
+        border-radius: 1rem;
+        padding: 1rem;
+        color: #fff;
+        
+    
+    }
+    
+    .landing .review .container .carousal .card .profile p {
+        color: #fff;
+    }
+    
+    .landing .review .container .carousal .card .profile img {
+        width: 3rem;
+    }
+    
+    .landing .review .container .carousal button {
+        width: fit-content;
+        border-radius: 50%;
+        border: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .landing .review .container .carousal button img {
+        width: 1.5rem;
+    }
+    
+    .landing .contact {
+        position: relative;
+    }
+    
+    .landing .contact .back {
+        width: 100%;
+        position: absolute;
+        height: 50%;
+        background-color: #94C0F2;
+        z-index: 0;
+    }
+    
+    .landing .contact .form {
+        width: 60%;
+        background-color: #fff;
+        box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        z-index: 1;
+        margin-top: 5rem;
+        padding: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .landing .contact .form h1{
+        color: #2370C8;
+        width: 60%;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+    .landing .contact .form p{
+        width: 70%;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+    .landing .contact .form .icon img{
+        background-color: #2370C8;
+        border-radius: 50% ;
+        width: 1.6rem;
+        height: 1.6rem;
+        padding: 0.3rem;
+        aspect-ratio: 1/1;
+    } 
+    .landing .contact .form label{
+        color: #2370C8;
+        font-size: 1rem;
+    }
+    .landing .contact .form input{
+        width: 90%;
+        font-size: 1rem;
+        height: 2.1rem;
+        border-radius: 0.3rem;
+        outline: none;
+        border: 1px solid #A6A2A2;
+    }
+    .landing .contact .form form{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .landing .contact .form textarea{
+        width: 90%;
+        font-size: 1rem;
+    }
+    .landing .contact .form button{
+        width: fit-content;
+        padding: 0.6rem 1rem;
+        background-color: #2370C8;
+        border-radius: 0.3rem;
+        border: none;
+        color: #fff;
+        font-size: 1.1rem;
+        outline: none;
+        border: 1px solid #A6A2A2;
+    }
+    
+}

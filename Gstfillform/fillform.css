@@ -1,0 +1,79 @@
+.label_div{
+
+    width: 73%;
+    /* border: 2px solid black; */
+    margin-left: .4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.label_div label{
+    /* border: 2px solid yellowgreen; */
+    font-size: 3rem;
+    font-weight: 400;
+    color: #2370C8;
+
+  
+}
+.gstf_child1 {
+    width: 100%;
+    height: ;
+    background: linear-gradient(180deg, rgba(148, 192, 242, 0.51) 0%, #5C7CA2 100%);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.gstf_left {
+    width: 40%;
+    height: 100%;
+    /* border: 3px solid wheat; */
+    text-align: left;
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.gstf_left span {
+    color: #122E99;
+}
+
+.gstf_right {
+    width: 30%;
+    height: 100%;
+    /* border: 3px solid wheat; */
+
+
+
+}
+
+.gstf_right img {
+    width: 90%;
+
+    /* border: 2px solid yellow; */
+
+
+}
+
+.click {
+    width: 45%;
+    height: 100%;
+    /* border: 2px dotted black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+    
+    color: #938C8C;
+}
+.click a{
+    color: #122E99;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 500;
+
+}
+.click_here p{
+    /* border-bottom: 1px solid  #2370C8; */
+}
+
